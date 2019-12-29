@@ -7,6 +7,8 @@ echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
 
  echo a="$a"
 
-read -p 'enter your name:' name
-read -p 'enter your age:' age
-echo -e "student name = $name \n age = $age"
+echo variable 0 =$0
+
+echo variable 1 =$1
+
+echo variable 2 =$2
