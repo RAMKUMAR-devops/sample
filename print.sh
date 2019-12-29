@@ -23,3 +23,7 @@ comment
 echo -e "student=$1 \n age=$2"
 
 echo "status="$?
+
+exit 100
+
+echo "reyyyy"
