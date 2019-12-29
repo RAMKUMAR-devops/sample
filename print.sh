@@ -1,2 +1,3 @@
- echo -e "hellooo \n bye"
-
+ <<cmnt echo -e "helloo"
+cmnt
+echo "single line"
