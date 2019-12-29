@@ -11,3 +11,9 @@ student=("ram" "rahim" "raju")
 echo student=${student[]}
 echo number of values in student =${#student[*]}
 echo "first value of student=" ${student[1]}
+
+declare -a faculty
+faculty["devops"]=raghu
+faculty["aws"]=raju
+
+echo faculty of devops is ${faculty[devops]}
