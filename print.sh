@@ -1,3 +1,2 @@
-<<cmnt echo hellooo
-cmnt
-echo man
+ echo -e "hellooo \n bye"
+
