@@ -16,4 +16,4 @@ declare -a faculty
 faculty["devops"]=raghu
 faculty["aws"]=raju
 
-echo faculty of devops is ${faculty[devops]}
+echo "faculty of devops is" ${faculty[devops]}
