@@ -6,3 +6,6 @@ echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
  a=12003083
 
  echo a="$a"
+
+ class = $class
+ echo "value of env variable = $class"
