@@ -7,15 +7,6 @@ echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
 
  echo a="$a"
 
-student=("ram" "rahim" "raju")
-echo number of values in student =${#student[*]}
-echo "first value of student=" ${student[1]}
-
-declare -a faculty
-faculty["devops"]=raghu
-faculty["aws"]=raju
-
-echo "faculty of devops is" ${faculty[devops]}
-
-LIST_OF_FILE=$(ls)
-echo $LIST_OF_FILE
+read -p 'enter your name:' name
+read -p 'enter your age:' age
+echo -e "student name = $name \n age = $age"
