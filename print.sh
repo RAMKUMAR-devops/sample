@@ -1,1 +1,2 @@
 echo hellooo
+echo man
