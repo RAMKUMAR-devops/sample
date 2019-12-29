@@ -12,3 +12,9 @@ echo variable 0 =$0
 echo variable 1 =$1
 
 echo variable 2 =$2
+
+echo "#" = $#
+
+echo "@" =$@
+
+echo "*" =$*
