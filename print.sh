@@ -8,7 +8,6 @@ echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
  echo a="$a"
 
 student=("ram" "rahim" "raju")
-echo student=${student[]}
 echo number of values in student =${#student[*]}
 echo "first value of student=" ${student[1]}
 
@@ -19,5 +18,4 @@ faculty["aws"]=raju
 echo "faculty of devops is" ${faculty[devops]}
 
 LIST OF FILE=$(ls)
-
 echo $LIST OF FILE
