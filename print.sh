@@ -10,7 +10,7 @@ function abc() {
 ## One more function 
 abc1() {
   echo I am also a function
-  return 99
+  return 0
   echo Bye
 }
 
