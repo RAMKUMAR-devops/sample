@@ -17,5 +17,5 @@ faculty["aws"]=raju
 
 echo "faculty of devops is" ${faculty[devops]}
 
-LIST OF FILE=$(ls)
-echo $LIST OF FILE
+LIST_OF_FILE=$(ls)
+echo $LIST_OF_FILE
