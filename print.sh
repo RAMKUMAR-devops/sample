@@ -20,4 +20,4 @@ echo "faculty of devops is" ${faculty[devops]}
 
 LIST OF FILE=$(ls)
 
-echo LIST OF FILE
+echo $LIST OF FILE
