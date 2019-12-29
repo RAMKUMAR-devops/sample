@@ -7,5 +7,6 @@ echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
 
  echo a="$a"
 
- class = $class
- echo "value of env variable = $class"
+student = ("ram""rahim""raju")
+echo number of values in student =${#student[*]}
+echo "first value of student=" ${student[1]}
