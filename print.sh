@@ -1,29 +1,17 @@
- echo -e "helloo \n"
-echo -e "single line\t"
-echo -e "ram\tkumar\tpudi\nmalleswara\trao\tpudi"
+#!/bin/bash 
 
-echo -e "\e[43;35m MAGENTA COLOR FONT\e[0m"
- a=12003083
+ACTION=$1
 
- echo a="$a"
-<<comment
-echo variable 0 =$0
-
-echo variable 1 =$1
-
-echo variable 2 =$2
-
-echo "#" = $#
-
-echo "@" =$@
-
-echo "*" =$*
-comment
-
-echo -e "student=$1 \n age=$2"
-
-echo "status="$?
-
-exit 100
-
-echo "reyyyy"
+case $ACTION in 
+  start)
+    echo -e "Starting Service"
+    ;;
+  stop)
+    echo -e "Stopping Service"
+    ;;
+  *)
+    echo -e "Invalid Input"
+    echo -e "Expected inputs are \e[1mstart/stop\e[0m"
+    exit 1
+    ;;
+esac
