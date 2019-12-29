@@ -18,3 +18,5 @@ echo "#" = $#
 echo "@" =$@
 
 echo "*" =$*
+
+echo -e "student=$1 \n age=$2"
